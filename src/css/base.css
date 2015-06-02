@@ -1,0 +1,87 @@
+.bg-1{
+	background:url(../img/1-1.png) repeat-x;
+	background-size:cover;
+
+}
+.bg-2{
+	background:url(../img/2.png) no-repeat fixed bottom center;
+	background-size:cover;
+    overflow: hidden;
+}
+.bg-3{
+	background:url(../img/3-1.png) repeat-x;
+	background-size:cover;
+
+}
+
+.test-btn{
+	width:150px;
+	height: 30px;
+	margin:20px auto;
+	background:rgb(26, 169, 181);
+	color: white;
+	border-radius: 7px;
+	text-align: center;
+	line-height: 30px;
+
+}
+.rocket-wrap{
+	text-align: center;
+
+}
+.rocket{
+	position:absolute;
+	bottom: 0px;
+	margin-left:-55px;
+}
+
+.make-book-tip{
+    position:absolute;
+    top:48px;
+}
+.btns{
+       position:absolute;
+       left: 15px;
+    top:100px;
+    text-align: center;
+    width:100%;
+}
+
+@-webkit-keyframes moveup {
+    from {
+        opacity: 1;
+
+        -webkit-transform: translateY(170px);
+
+                transform: translateY(170px);
+    }
+    to {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+
+@keyframes moveup {
+    from {
+        opacity: 1;
+
+        -webkit-transform: translateY(170px);
+
+                transform: translateY(170px);
+    }
+    to {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+.move-up {
+    -webkit-animation: moveup 4s  ease-in-out;
+    animation: moveup 4s  ease-in-out;
+}
+
